@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+   
+}
+.navbar{
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.navlogo{
+    height: 50px;
+    width: 100px;
+
+}
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    border: 2px solid rgba(214, 152, 20, 0.769);
+    height: 50px;
+    width: 100px;
+
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2.2px solid white;
+
+}
+.addfirst{
+ color: #cccccc;
+ font-size: 0.8rem;
+ margin-left: 15px;
+
+
+
+}
+.addsecond{
+    font-size: 1rem;
+    margin-left:10px;
+
+}
+.addicon{
+    display: flex;
+    align-items: center;
+}
+.navsearch{
+    display: flex;
+    width: 620px;
+    height: 40px;
+    
+    border-radius: 4px;
+    justify-content: space-evenly;
+}
+.searchselect{
+align-items: center;   
+justify-content: center;
+}
+.searchinput{
+    width: 100%;
+    font-size: 1rem;
+}
+.searcholder{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#febd68;
+    color:#0F1111 ;
+  border-bottom-right-radius:4px ;
+ font-size: 1.2rem;
+  border-top-right-radius:4px ;
+}
+.national{
+    background-color: #0F1111;
+    color: white;
+    border: 0px;
+}
+span{
+    font-size: 0.7rem;
+}
+.navsecond{
+    font-size: 0.85rem;
+    justify-content: space-evenly;
+    
+
+}
+
+.cart i{
+    font-size: 30px;
+    color: #cccccc;
+
+}
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panelops p{
+    display: inline; 
+    margin-left: 15px;
+   
+    
+
+}
+.panelops{
+    width: 90%;
+    font-size: 0.85rem;
+   
+}
+.herosec{
+    background-image:url("hero_image.jpg");
+    background-size:cover;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.heropt{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 0.85rem;
+    width: 95%;
+    margin-bottom: 25px;
+}
+.heropt a{
+    color: #007185;
+}
+.shop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box{
+    height: 400px;
+   
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+.boximg{
+    height: 300px;
+    background-size: contain;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.boxcontent{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
